@@ -1,0 +1,46 @@
+body {
+    /*background-color:red;*/
+    color:black;
+
+}
+
+#nav{
+    display:none;
+}
+@media only screen and (max-width:1500px) {
+    body {
+        /*background-color:black;*/
+        /*color:white;*/
+
+    }
+    #map{
+        display:none;
+    }
+    #menu{
+        display:none;
+    }
+    #nav{
+        display:block;
+    }
+
+
+}
+
+@media only screen and (max-width: 750px) {
+    body {
+        /*background-color:black;*/
+        /*color:white;*/
+
+    }
+    #map{
+        display:none;
+    }
+    #menu{
+        display:none;
+    }
+    #nav{
+        display:none;
+    }
+
+
+}
